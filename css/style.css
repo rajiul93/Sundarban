@@ -37,6 +37,7 @@ p {
   font-size: 16px;
 }
 .button {
+  cursor: pointer;
   border-radius: 8px;
   background: #ff5400;
   font-style: normal;
@@ -149,7 +150,6 @@ p {
   background: #ff5400;
 }
 
-
 .popular-tour {
   margin-top: 80px;
   margin-bottom: 70px;
@@ -229,6 +229,16 @@ ul > li {
 .about {
   margin-top: 80px;
 }
+.about-title >p{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-bottom:48px ;
+}
 .about-us {
   display: grid;
   grid-template-columns: 49% 49%;
@@ -296,7 +306,6 @@ footer > span {
   margin-top: 80px;
   align-items: center;
   gap: 20px;
-
 }
 .newsletter p {
   color: #707071;
@@ -305,69 +314,194 @@ footer > span {
   font-weight: 400;
   line-height: 26px;
   max-width: 397px;
-
 }
-hr{
-  background-color: rgba(184, 184, 191, 0.05); background: rgba(19, 19, 24, 0.10); height: 1px; border: 0;
+hr {
+  background-color: rgba(184, 184, 191, 0.05);
+  background: rgba(19, 19, 24, 0.1);
+  height: 1px;
+  border: 0;
 }
 .newsletter-1 {
   padding: 50px 40px;
   border-radius: 16px;
-  border: 1px solid #FF5400;
+  border: 1px solid #ff5400;
   max-width: 474px;
-
 }
 .newsletter-1 > div {
   display: flex;
   flex-direction: column;
   max-width: 399px;
   gap: 10px;
-
 }
-.newsletter-1 > div >input{
+.newsletter-1 > div > input {
   border: none;
   border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-padding: 16px;
-outline: none;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 16px;
+  outline: none;
 }
-.newsletter-2>img{
+.newsletter-2 > img {
   width: 100%;
   height: 389px;
 }
-.newsletter-2{
+.newsletter-2 {
   position: relative;
 }
-.newsletter-2 > .newsletter-2-offer{
+.newsletter-2 > .newsletter-2-offer {
   position: absolute;
   z-index: 1;
   bottom: 38px;
   right: 0;
   border-radius: 16px;
-background: #FF5400;
-transform: rotate(-19.628deg);
+  background: #ff5400;
+  transform: rotate(-19.628deg);
 }
-.newsletter-2-offer h3,p{
+.newsletter-2-offer h3,
+p {
   margin: 0;
 }
-.newsletter-2-offer h3{
-  color: #FFF;
+.newsletter-2-offer h3 {
+  color: #fff;
 
-font-family: Mulish;
-font-size: 32px;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.newsletter-2-offer > p {
+  color: #fff;
+
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.discount-1 {
+  border-radius: 16px;
+  background: url("../img/15.jpeg"), lightgray 50% / cover no-repeat;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 56px;
+  position: relative;
+  height: 390px;
+  margin-top: 80px;
+}
+.discount-1 > div {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  max-width: 579px;
+  padding: 50px;
+  position: absolute;
+  margin: 0;
+  right: 50px; 
+}
+.discount h5{
+  color: #FF5400; 
+font-size: 20px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
-.newsletter-2-offer>p{
-  color: #FFF;
+.discount h4{
+  color: #131318;
 
-text-align: center;
 font-family: Mulish;
 font-size: 24px;
 font-style: normal;
-font-weight: 400;
+font-weight: 800;
 line-height: normal;
+}
+.discount p{
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+max-width: 452px;
+}
+.discount i{
+  color: #FF5400;;
+}
+.time-location-container{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.time-location{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.discount-2{
+  border-radius: 16px;
+  background: url("../img/16.jpeg"), lightgray 50% / cover no-repeat;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 56px;
+  position: relative;
+  height: 390px;
+  margin-top: 80px;
+}
+.discount-2>div{
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  max-width: 579px;
+  padding: 50px;
+  position: absolute;
+  margin: 0;
+  left: 50px; 
+}
+.discount-3 {
+  border-radius: 16px;
+  background: url("../img/17.jpeg"), lightgray 50% / cover no-repeat;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 56px;
+  position: relative;
+  height: 390px;
+  margin-top: 80px;
+}
+.discount-3 > div {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  max-width: 579px;
+  padding: 50px;
+  position: absolute;
+  margin: 0;
+  right: 50px; 
+}
+
+
+.location{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.location img{
+  width: 100%;
+}
+.location-1{
+  max-width: 532px;
 }
 @media (max-width: 600px) {
   .width-control {
@@ -375,7 +509,7 @@ line-height: normal;
     padding: 0 2rem;
     margin: 0 auto;
   }
- .dextop-menu {
+  .dextop-menu {
     display: none;
   }
   .nav .bar-container {
@@ -443,6 +577,52 @@ line-height: normal;
   }
   .newsletter {
     display: grid;
-    grid-template-columns: repeat(1, 1fr) ;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-us {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .about-section-3 {
+    width: 88%;
+  }
+  .discount-1 {
+    height: auto;
+  }
+  .discount-3 {
+    height: auto;
+  }
+  .discount-1 > div {
+   
+    right: 0px;
+    position: relative;
+  }
+  .discount-3 > div {
+   
+    right: 0px;
+    position: relative;
+  }
+  
+  .time-location-container{
+    align-items: self-start;
+   flex-direction: column;
+  
+  }
+  .discount-2{
+    height: auto;
+  }
+  .discount-2>div{
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    position: relative;
+    margin: 0;
+    left: 0px;
+  }
+  .location{
+    margin-top: 80px;
+    grid-template-columns: 100%;
   }
 }
