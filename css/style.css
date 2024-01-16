@@ -665,7 +665,9 @@ max-width: 452px;
   .about-title{
     margin-bottom: 30px;
   }
+  /*  */
   .testimonial{
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
   }
 }
