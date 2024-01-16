@@ -188,22 +188,23 @@ ul > li {
 }
 
 .img-container-1 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2%;
   margin-bottom: 15px;
 }
-.img-container-1 > div {
+.img-container-1-div {
   position: relative;
 }
 .img-container-1 > div .img-1 {
   width: 100%;
 }
-.img-container-1 > div > h3 {
+.img-container-1-div > h3 {
   position: absolute;
   color: white;
-  top: 36%;
+  top: 50%;
   margin: 0;
-  left: 29%;
+  left: 40%;
 }
 
 .img-container-2 {
@@ -581,8 +582,7 @@ max-width: 452px;
     width: auto;
   }
   .img-container-1 {
-    flex-direction: column;
-    gap: 10px;
+ grid-template-columns: repeat(1, 1fr);
   }
   .img-container-2 {
     grid-template-columns: 100%;
