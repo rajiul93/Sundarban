@@ -34,6 +34,7 @@ h4 {
   line-height: normal;
 }
 p {
+  color: #5A5A5D;
   font-size: 16px;
 }
 .button {
@@ -503,7 +504,22 @@ max-width: 452px;
 .location-1{
   max-width: 532px;
 }
-@media (max-width: 600px) {
+@media (max-width: 600px) { 
+  h1{
+    font-size: 22px;
+  }
+  h2{
+
+    font-size: 20px;
+  }
+  p{
+    font-size: 14px;
+    color: #5A5A5D;
+  }
+  h3{
+   font-size: 20px;
+  }
+
   .width-control {
     max-width: 600px;
     padding: 0 2rem;
@@ -622,7 +638,15 @@ max-width: 452px;
     left: 0px;
   }
   .location{
-    margin-top: 80px;
+
     grid-template-columns: 100%;
   }
+  .popular-tour,.about,.location,.newsletter footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .about-title{
+    margin-bottom: 30px;
+  }
+
 }
