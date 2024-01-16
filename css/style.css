@@ -375,7 +375,7 @@ line-height: normal;
     padding: 0 2rem;
     margin: 0 auto;
   }
-  nav > ul {
+ .dextop-menu {
     display: none;
   }
   .nav .bar-container {
@@ -390,7 +390,7 @@ line-height: normal;
     background-color: black;
   }
 
-  /* .hero-content h1 {
+  .hero-content h1 {
     font-size: 22px;
     padding: 5px 15px;
     margin-bottom: 10px;
@@ -440,5 +440,9 @@ line-height: normal;
   .img-container-3 {
     grid-template-columns: 100%;
     margin-top: 52px;
-  } */
+  }
+  .newsletter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) ;
+  }
 }
